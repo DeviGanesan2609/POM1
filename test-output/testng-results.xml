@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14275" started-at="2017-10-21T07:32:47Z" finished-at="2017-10-21T07:33:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14275" started-at="2017-10-21T07:32:47Z" finished-at="2017-10-21T07:33:01Z">
+      <class name="tests.Guru99LoginTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="setupBrowser" is-config="true" duration-ms="10790" started-at="2017-10-21T13:02:47Z" finished-at="2017-10-21T13:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="verify_HomePage_Appears_Correct()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="verify_HomePage_Appears_Correct" duration-ms="2180" started-at="2017-10-21T13:02:57Z" finished-at="2017-10-21T13:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HomePage_Appears_Correct -->
+        <test-method status="PASS" signature="scrShot(org.testng.ITestResult)[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="scrShot" is-config="true" duration-ms="278" started-at="2017-10-21T13:03:00Z" finished-at="2017-10-21T13:03:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_HomePage_Appears_Correct status=SUCCESS method=Guru99LoginTest.verify_HomePage_Appears_Correct()[pri:0, instance:tests.Guru99LoginTest@6574b225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrShot -->
+        <test-method status="PASS" signature="endBrowserSession()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="endBrowserSession" is-config="true" duration-ms="997" started-at="2017-10-21T13:03:00Z" finished-at="2017-10-21T13:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrowserSession -->
+      </class> <!-- tests.Guru99LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
