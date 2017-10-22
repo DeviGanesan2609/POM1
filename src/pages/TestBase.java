@@ -11,28 +11,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class TestBase 
 {
-	 WebDriver driver;
+	 public static WebDriver driver;
+	 public static String methodname;	
 	 
-	 
-	 public TestBase(WebDriver driver)
-	 {
-		 this.driver =driver;
-	 }
-	 
-/*	 @BeforeTest
-	  public void setupBrowser() 
-	  {
-		  driver = new FirefoxDriver();
-		  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		  driver.get("http://demo.guru99.com/V4/");
-	  }*/
+	public TestBase(WebDriver driver)
+	{
+		this.driver=driver;
+	}
 
-	 
-	
 	public  void getScreenShots(String methodname)
 	{
 		
@@ -50,6 +41,17 @@ public class TestBase
 			e.printStackTrace();
 		}
 	}
-	
+/*	  @BeforeTest
+	  public static void setupBrowser() 
+	  {
+		  driver = new FirefoxDriver();
+		  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		  driver.get("http://demo.guru99.com/V4/");
+	  }
+	  @AfterTest
+	  public static void endBrowserSession()
+	  {
+		  driver.quit();
+	  }*/
 		 
 }

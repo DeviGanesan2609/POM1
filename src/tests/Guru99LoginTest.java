@@ -19,11 +19,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Guru99LoginTest 
 {
-	 WebDriver driver;
+
+
+	WebDriver driver;
 	 Guru99LoginPage loginPageObj;
 	 Guru99HomePage homePageObj;
-	 TestBase testBaseObj ;
+	TestBase testBaseObj ;
 	String methodname;
+	
+
 	
   @Test
   public void verify_HomePage_Appears_Correct() 
@@ -34,8 +38,7 @@ public class Guru99LoginTest
 	  homePageObj = new Guru99HomePage(driver);
 	  Assert.assertTrue(homePageObj.guruHmePageTitle().toLowerCase().contains("mngr100556"));
 	  System.out.println("Verification Of Login and Launching Home Page is Success");
-	
-	 // System.out.println(result.getName().toString().trim());
+
   }
   
   @AfterMethod
@@ -43,7 +46,7 @@ public class Guru99LoginTest
   {		methodname = result.getMethod().getMethodName();
   
 	  testBaseObj = new TestBase(driver);
-	  testBaseObj.getScreenShots(methodname);
+	  testBaseObj.getScreenShots(methodname+"_one");
   }
   
   @BeforeTest

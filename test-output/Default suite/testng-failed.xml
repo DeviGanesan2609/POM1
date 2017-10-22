@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Guru99LoginTest">
+      <class name="tests.Guru99LoginTest2">
         <methods>
-          <include name="endBrowserSession"/>
           <include name="setupBrowser"/>
+          <include name="endBrowserSession"/>
           <include name="verify_HomePage_Appears_Correct"/>
         </methods>
-      </class> <!-- tests.Guru99LoginTest -->
+      </class> <!-- tests.Guru99LoginTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

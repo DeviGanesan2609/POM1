@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14275" started-at="2017-10-21T07:32:47Z" finished-at="2017-10-21T07:33:01Z">
+  <suite name="Default suite" duration-ms="31258" started-at="2017-10-22T04:34:58Z" finished-at="2017-10-22T04:35:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14275" started-at="2017-10-21T07:32:47Z" finished-at="2017-10-21T07:33:01Z">
+    <test name="Default test" duration-ms="31258" started-at="2017-10-22T04:34:58Z" finished-at="2017-10-22T04:35:30Z">
       <class name="tests.Guru99LoginTest">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="setupBrowser" is-config="true" duration-ms="10790" started-at="2017-10-21T13:02:47Z" finished-at="2017-10-21T13:02:57Z">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="setupBrowser" is-config="true" duration-ms="11344" started-at="2017-10-22T10:04:58Z" finished-at="2017-10-22T10:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="verify_HomePage_Appears_Correct()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="verify_HomePage_Appears_Correct" duration-ms="2180" started-at="2017-10-21T13:02:57Z" finished-at="2017-10-21T13:03:00Z">
+        <test-method status="PASS" signature="verify_HomePage_Appears_Correct()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="verify_HomePage_Appears_Correct" duration-ms="2870" started-at="2017-10-22T10:05:10Z" finished-at="2017-10-22T10:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_HomePage_Appears_Correct -->
-        <test-method status="PASS" signature="scrShot(org.testng.ITestResult)[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="scrShot" is-config="true" duration-ms="278" started-at="2017-10-21T13:03:00Z" finished-at="2017-10-21T13:03:00Z">
+        <test-method status="PASS" signature="scrShot(org.testng.ITestResult)[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="scrShot" is-config="true" duration-ms="355" started-at="2017-10-22T10:05:13Z" finished-at="2017-10-22T10:05:13Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrShot -->
-        <test-method status="PASS" signature="endBrowserSession()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="endBrowserSession" is-config="true" duration-ms="997" started-at="2017-10-21T13:03:00Z" finished-at="2017-10-21T13:03:01Z">
+        <test-method status="PASS" signature="endBrowserSession()[pri:0, instance:tests.Guru99LoginTest@6574b225]" name="endBrowserSession" is-config="true" duration-ms="16661" started-at="2017-10-22T10:05:13Z" finished-at="2017-10-22T10:05:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endBrowserSession -->
